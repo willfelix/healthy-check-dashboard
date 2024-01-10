@@ -1,0 +1,20 @@
+[
+    { "name": "accounts", "interval": 15 },
+    { "name": "assets", "interval": 15 },
+    { "name": "customers", "interval": 15 },
+    { "name": "datapoints", "interval": 15 },
+    { "name": "devices", "interval": 15 },
+    { "name": "documents", "interval": 15 },
+    { "name": "forms", "interval": 15 },
+    { "name": "invites", "interval": 15 },
+    { "name": "media", "interval": 15 },
+    { "name": "messages", "interval": 15 },
+    { "name": "namespaces", "interval": 15 },
+    { "name": "orders", "interval": 15 },
+    { "name": "patients", "interval": 15 },
+    { "name": "relationships", "interval": 15 },
+    { "name": "rules", "interval": 15 },
+    { "name": "templates", "interval": 15 },
+    { "name": "users", "interval": 15 },
+    { "name": "workflows", "interval": 15 }
+]

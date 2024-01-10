@@ -1,0 +1,46 @@
+
+.card {
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0px 6px 6px -3px rgba(30, 30, 30, 0.05),
+        0px 10px 12px 1px rgba(30, 30, 30, 0.05),
+        0px 4px 12px 3px rgba(30, 30, 30, 0.05);
+    border-radius: 8px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-status {
+    text-transform: capitalize;
+}
+
+.card-host {
+    font-size: 12px;
+}
+
+.card-status {
+    padding: 0.5rem;
+    opacity: 0.7;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.error .card-status {
+    background-color: red;
+}
+
+.error .card-host,
+.error .card-info {
+    font-size: unset;
+    font-weight: bold;
+    color: red;
+}
